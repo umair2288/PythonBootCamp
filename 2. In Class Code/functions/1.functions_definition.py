@@ -1,4 +1,4 @@
-#functions
+# #functions
 from datetime import datetime
 
 #defintion
@@ -13,7 +13,22 @@ def greeting():
     print(greet)
 
 print("Hi")  
+
 #call
 greeting()
 greeting()
 greeting()
+
+
+# Anantomy of a function
+
+# 1. can't start with numbers
+# 2. can only contain alpha numeric & _
+# 3. NAME, first_name
+
+
+def say_hello():
+    print("Hello!")
+
+
+say_hello()
